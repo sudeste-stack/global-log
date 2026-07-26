@@ -49,11 +49,9 @@ export const Home = html`
 
 	<section id="inicio" class="py-20 px-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-center">
 		<div class="max-w-3xl mx-auto">
-			<h1 class="text-5xl font-bold mb-4">Logística profesional para Buenos Aires</h1>
+			<h1 class="text-5xl font-bold mb-4">Somos GlobaLog</h1>
 			<p class="text-lg mb-8 opacity-90">Soluciones de transporte y distribución confiables. Entregas rápidas, precios competitivos, atención personalizada.</p>
-			<button class="btn btn-lg bg-white text-blue-600 hover:bg-gray-100"
-				onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Contactá con
-				nosotros</button>
+			<button class="btn btn-lg bg-white text-blue-600 hover:bg-gray-100" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Contactá con nosotros</button>
 		</div>
 	</section>
 
